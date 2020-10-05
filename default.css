@@ -300,12 +300,11 @@ footer{
     
 }
 
-.post-preview{
+.post-preview {
 	background-color: #fff;
     padding:15px;
     width: 100%;
-    height: auto;
-   
+	height: auto;   
 }
 
 .post-title{
@@ -412,8 +411,54 @@ footer{
 		width: 280px;
 
     }
-   
+}
+
+
+@media screen and (max-width: 800px) {
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.post-wrapper ul {
+		padding: 0 5px;
+	}
+
+	.post-preview img {
+		width: 100%;
+		height: auto;
+	}
+
+	.post-preview {
+		font-size: 10px;
+	}
+
+	.post-preview video {
+		width: 100%;
+	}
+
+	#skills ul {
+		padding: 5px;
+	}
+
+	.thumbnail {
+		width: 65px;
+	}
+
+	.social-icons {
+		flex-wrap: wrap;
+	}
+
+	.icon-wrap {
+		flex: 0 33%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
 
 }
+
+
 
 
